@@ -1,0 +1,9 @@
+<!--pages/memory/memory.wxml-->
+<view class='content'>Memory
+  <block wx:for="{{memory}}" wx:for-item="memory1">
+    <view class='item'>
+    {{memory1.progress}} = {{memory1.result}}
+    </view>
+  </block>
+</view>
+<!-- <view bindtap='display'>查看历史记录</view> -->

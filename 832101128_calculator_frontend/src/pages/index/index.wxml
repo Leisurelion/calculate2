@@ -1,0 +1,52 @@
+<!--pages/index/index.wxml-->
+<view class="op">
+{{progress}}
+</view>
+
+<view class="infor">
+<text>{{result}}</text>
+</view>
+
+<view class="btns">
+  <view>
+    <view bindtap="clear">C</view>
+    <view bindtap="del">Del</view>
+    <view bindtap="clickButton" id='ans'>ans</view>
+    <view bindtap="clickButton" id="(">(</view>
+    <view bindtap="clickButton" id=")">)</view>
+</view>
+<view>
+    <view bindtap="clickButton" id="sin(">sin</view>
+    <view bindtap="clickButton" id="cos(">cos</view>
+    <view bindtap="clickButton" id="tan(">tan</view>
+    <view bindtap="clickButton" id="deg">deg</view>
+    <view bindtap="clickButton" id="^">^</view>
+</view>
+<view>
+  <view bindtap="clickButton"  id="7">7</view>
+    <view bindtap="clickButton"  id="8">8</view>
+    <view bindtap="clickButton"  id="9">9</view>
+    <view bindtap="clickButton" id="*">*</view>
+</view>
+<view>
+  <view bindtap="clickButton"  id="4">4</view>
+    <view bindtap="clickButton"  id="5">5</view>
+    <view bindtap="clickButton"  id="6">6</view>
+    <view bindtap="clickButton" id="-">-</view>
+</view>
+<view>
+  <view bindtap="clickButton"  id="1">1</view>
+    <view bindtap="clickButton"  id="2">2</view>
+    <view bindtap="clickButton"  id="3">3</view>
+    <view bindtap="clickButton" id="+">+</view>
+</view>
+<view>
+    <view bindtap="clickButton" id="0">0</view>
+    <view bindtap="clickButton" id=".">.</view>
+    <view bindtap="clickButton" id="=">=</view>
+    <view bindtap="clickButton" id="/">/</view>
+</view>
+<view>
+  <view bindtap="memory">memory</view>
+</view>
+</view>

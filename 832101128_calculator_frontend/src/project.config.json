@@ -1,0 +1,33 @@
+{
+  "appid": "wx05218f4239aaa7ea",
+  "projectname": "caculator",
+  "compileType": "miniprogram",
+  "libVersion": "2.19.4",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "coverView": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "enhance": true,
+    "showShadowRootInWxmlPanel": true,
+    "packNpmRelationList": [],
+    "compileHotReLoad": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "ignoreDevUnusedFiles": false,
+    "ignoreUploadUnusedFiles": false
+  },
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}
