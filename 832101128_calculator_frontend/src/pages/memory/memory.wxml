@@ -2,7 +2,11 @@
 <view class='content'>Memory
   <block wx:for="{{memory}}" wx:for-item="memory1">
     <view class='item'>
-    {{memory1.progress}} = {{memory1.result}}
+      <block wx:for="{{memory1}}" wx:for-item="memory2">
+    <view class='item'>
+    {{memory2[0]}}={{memory2[1]}}
+    </view>
+  </block>
     </view>
   </block>
 </view>

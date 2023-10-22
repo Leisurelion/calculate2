@@ -16,5 +16,8 @@ App({
   globalData: {
     userInfo: null,
     memorys:[]
+  },
+  "networkTimeout": {
+    "request": 10000
   }
 })

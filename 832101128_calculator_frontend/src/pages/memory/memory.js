@@ -8,12 +8,12 @@ Page({
   onShow: function () {
     const memorys1=  app.globalData.memorys
     const last10Memorys = memorys1.length >= 10 ? memorys1.slice(-10) : memorys1;
-    const newemorys = last10Memorys.map(m =>{
-        m.progress = m.progress.replace(/ /g, '+');
-      return m;
-    })
+    // const newemorys = last10Memorys.map(m =>{
+    //     m. = m.progress.replace(/ /g, '+');
+    //   return m;
+    // })
     this.setData({
-      memory:newemorys
+      memory:last10Memorys
     });
   },
   // display(){
